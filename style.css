@@ -4,14 +4,21 @@ body{
    background: url(/img/space.jpg); 
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: fixed;
-   background-size: cover;
+   background-position:fixed;
+   background-size:cover;
+   background-attachment: local;
 }
 
-#my-Div{
+#my-div{
 
    height: 100px;
    width: 100px;
    position: absolute;
-   transition: 0.1s ease-out;
+   transition: 0.07s ease-out;
+}
+
+#my-div img{
+
+width: 500px;
+
 }
