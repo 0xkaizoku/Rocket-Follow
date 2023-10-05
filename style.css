@@ -15,10 +15,12 @@ body{
    width: 100px;
    position: absolute;
    transition: 0.07s ease-out;
+
 }
 
 #my-div img{
 
 width: 500px;
+height: 500px;
 
 }
