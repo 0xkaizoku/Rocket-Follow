@@ -1,5 +1,5 @@
-let myDiv = document.getElementById('my-Div');
-document.addEventListener('mousemove',(e)=>{
+let myDiv = document.getElementById('my-div');
+document.addEventListener("mousemove",(e)=>{
 move(e)
 })
 
@@ -8,8 +8,8 @@ let move = (e)=>{
     let x = e.pageX;
     let y = e.pageY;
 
-    myDiv.style.left = x-100 + "px";
-    myDiv.style.top = y-100 + "px";
+    myDiv.style.left = x + "px";
+    myDiv.style.top = y + "px";
 
 }
 
