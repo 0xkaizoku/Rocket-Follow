@@ -1,0 +1,17 @@
+body{
+   padding: 0px;
+   margin: 0px;
+   background: url(/img/space.jpg); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: fixed;
+   background-size: cover;
+}
+
+#my-Div{
+
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   transition: 0.1s ease-out;
+}
